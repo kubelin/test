@@ -11,6 +11,7 @@ public  class Company {
 	public static Company getInstance(){
 		if (instance ==null)
 			instance= new Company();
+			String dd = new String("sdfsdf");
 		return instance;
 
 	}
